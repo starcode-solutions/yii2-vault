@@ -12,6 +12,8 @@ use yii\base\InvalidConfigException;
  */
 class Module extends \yii\base\Module
 {
+    const DEFAULT_CLIENT_CLASS = 'starcode\yii\vault\components\Client';
+
     public $controllerNamespace = 'starcode\yii\vault\commands';
     public $clientConfig = __DIR__ . '/config/client.php';
 
@@ -54,7 +56,7 @@ class Module extends \yii\base\Module
         }
 
         if (!isset($config['class'])) {
-            $config['class'] = 'app\modules\vault\components\Client';
+            $config['class'] = self::DEFAULT_CLIENT_CLASS;
         }
 
         return $config;
