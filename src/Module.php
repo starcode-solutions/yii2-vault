@@ -1,8 +1,8 @@
 <?php
 
-namespace app\modules\vault;
+namespace starcode\yii\vault;
 
-use app\modules\vault\components\Client;
+use starcode\yii\vault\components\Client;
 use yii\base\InvalidConfigException;
 
 /**
@@ -12,8 +12,8 @@ use yii\base\InvalidConfigException;
  */
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'app\modules\vault\commands';
-    public $clientConfig = '@app/modules/vault/config/client.php';
+    public $controllerNamespace = 'starcode\yii\vault\commands';
+    public $clientConfig = __DIR__ . '/config/client.php';
 
     public function init()
     {

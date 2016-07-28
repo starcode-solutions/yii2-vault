@@ -1,10 +1,8 @@
 <?php
 
-namespace app\modules\vault\components;
+namespace starcode\yii\vault\components;
 
-use app\modules\vault\exceptions\ParseJsonInputException;
-use app\modules\vault\exceptions\SecretPathNotFound;
-use app\modules\vault\exceptions\VaultException;
+use starcode\yii\vault\exceptions\SecretPathNotFound;
 use GuzzleHttp\Exception\ClientException;
 use yii\base\Component;
 use yii\base\InvalidConfigException;

@@ -1,10 +1,10 @@
 <?php
 
-namespace app\modules\vault\commands;
+namespace starcode\yii\vault\commands;
 
-use app\modules\vault\components\Client;
-use app\modules\vault\exceptions\SecretPathNotFound;
-use app\modules\vault\Module;
+use starcode\yii\vault\components\Client;
+use starcode\yii\vault\exceptions\SecretPathNotFound;
+use starcode\yii\vault\Module;
 use yii\console\Controller;
 
 class ClientController extends Controller

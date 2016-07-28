@@ -1,8 +1,8 @@
 <?php
 
-namespace app\modules\vault\components;
+namespace starcode\yii\vault\components;
 
-use app\modules\vault\exceptions\SecretPathNotFound;
+use starcode\yii\vault\exceptions\SecretPathNotFound;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 use yii\helpers\Json;

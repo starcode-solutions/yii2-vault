@@ -27,7 +27,7 @@ return [
     'modules' => [
         // other modules ...
         'vault' => [
-            'class' => 'app\modules\vault\Module',
+            'class' => 'starcode',
             // module config params ...
         ],
     ],

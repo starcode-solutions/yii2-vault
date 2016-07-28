@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\vault\exceptions;
+namespace starcode\yii\vault\exceptions;
 
 use yii\base\Exception;
 

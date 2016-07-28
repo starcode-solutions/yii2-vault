@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\vault\components;
+namespace starcode\yii\vault\components;
 
 interface ClientInterface
 {
