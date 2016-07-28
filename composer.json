@@ -1,12 +1,12 @@
 {
-  "name": "starcode-krasnodar/yii2-vault",
+  "name": "starcode-solutions/yii2-vault",
   "type": "yii2-extension",
   "description": "Vault integration for Yii2",
   "keywords": ["yii2", "vault", "security"],
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/starcode-krasnodar/yii2-vault/issues?labels=ext%3Aimagine",
-    "source": "https://github.com/starcode-krasnodar/yii2-vault"
+    "issues": "https://github.com/starcode-solutions/yii2-vault/issues",
+    "source": "https://github.com/starcode-solutions/yii2-vault"
   },
   "authors": [
     {
