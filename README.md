@@ -35,4 +35,35 @@ return [
 ];
 ```
 ## CLI for vault module
-Todo.
+Module provide CLI for yii2 app:
+
+* `vault/client/list` list of vault secrets in path (first argument).
+* `vault/client/read` read secret data by path (first argument)
+* `vault/client/write` write secret data (first argument path, second JSON-string value)
+* `vault/client/delete` delete secret data
+
+### Examples
+
+Create new secret
+
+```sh 
+php yii vault/client/write secret/path/to/secret/key '{"value": "some secret"}'
+```
+
+Read exist secret
+
+```sh
+php yii vault/client/read secret/path/to/secret/key
+
+# output
+Array
+(
+    [value] => some secret
+)
+```
+
+Delete secret
+
+```php
+php yii vault/client/read secret/path/to/secret/key
+```

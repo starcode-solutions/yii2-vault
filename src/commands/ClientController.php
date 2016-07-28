@@ -25,7 +25,9 @@ class ClientController extends Controller
         try {
             $result = $this->getClient()->read($path);
 
-            print_r($result);
+            if (isset($result['data'])) {
+                print_r($result['data']);
+            }
         } catch (SecretPathNotFound $e) {
             $this->stderr($e->getMessage() . "\n");
         }
