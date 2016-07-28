@@ -1,0 +1,7 @@
+<?php
+
+return [
+    'class' => 'app\modules\vault\components\Client',
+    'address' => getenv('VAULT_ADDRESS'),
+    'token' => getenv('VAULT_TOKEN'),
+];

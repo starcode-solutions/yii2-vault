@@ -1,0 +1,7 @@
+<?php
+
+return [
+    'class' => 'app\modules\vault\components\Client',
+    'address' => 'http://localhost:8200',
+    'token' => '917be8b4-87b9-ddfd-9642-d28b5a652c27',
+];
